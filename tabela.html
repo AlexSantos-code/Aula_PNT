@@ -9,17 +9,18 @@
     <a href="index.html">
     <img src="img/basquetebol.png" alt="" width="100px" > </a>
     <h1>Tabelas do Projeto</h1>
-    <table border="2">
-        <tr>
+    <table border="1">
+        <thead>
             <th>ID</th>
             <th>Nome</th>
             <th>Cidade</th>
-            
-        </tr>
+
+        </thead>
+       <tbody>
         <tr>
             <td rowspan="2">Linha 1, Célula 1</td>
             <td rowspan="2">Linha 1, Célula 2</td>
-            <td rowspan="2">Linha 1, Célula 3</td>
+            <td colspan="3">Linha 1, Célula 3</td>
         </tr>
           <tr>
             <td>Linha 2, Célula 1</td>
@@ -31,6 +32,13 @@
             <td>Linha 3, Célula 2</td>
             <td>Linha 3, Célula 3</td>
         </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Tabela de exemplo</td>
+            </tr>
+        </tfoot>
 
     </table> <br>
 
