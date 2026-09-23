@@ -59,8 +59,67 @@ li.nordenada {
     list-style-type: square;
 }
 
-table, th, td {
+table,
+th,
+td {
     border: solid 5px rgb(159, 35, 35);
     color: beige;
     padding: 5px;
+}
+
+#insetos {
+    background: #db5656;
+    color: #310516;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#repteis {
+    background: #17f029;
+    color: #310516;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    ;
+}
+
+.tabelas-body {
+    margin: 30px 40px 50px 100px;
+    padding: 100px;
+}
+
+.planoH1 {
+    background: orange;
+    padding: 10px 10px 10px 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.705);
+
+
+}
+
+.planoH1:hover {
+    background: #17f029;
+}
+
+.planoP {
+    background: yellow;
+    padding: 50px;
+    border-radius: 5px;
+    border: 1px solid black;
+    clear: both;
+}
+
+.planoP:hover {
+    background: #17f029;
+    border-radius: 50px;
+}
+
+.float {
+    display: flex;
+    float: left; /*Desloca um elemento para a esquerda ou para a direita do seu contêiner, fazendo com que o texto e outros elementos ao redor o contornem. */
 }
