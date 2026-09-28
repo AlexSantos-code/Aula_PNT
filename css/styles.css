@@ -123,3 +123,45 @@ td {
     display: flex;
     float: left; /*Desloca um elemento para a esquerda ou para a direita do seu contêiner, fazendo com que o texto e outros elementos ao redor o contornem. */
 }
+
+h1.bDados {
+    position: absolute;
+    left: 150px ;
+    right: 200px ;
+    color:rgb(202, 159, 16);
+}
+
+.box0 {
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+}
+.box1 {
+    width: 50px;
+    height: 50px;
+    background: #17f029;
+    position: absolute;
+    top: 180px;
+    
+}
+.box2 {
+    width: 75px;
+    height: 75px;
+    background: #1cb629;
+     position: absolute;
+    top: 180px;
+    left: 150px;
+}
+.box3 {
+    width: 100px;
+    height: 100px;
+    background: #216927;
+    position: absolute;
+    top: 180px;
+    left:180px;
+}
+.box4 {
+    width: 125px;
+    height: 125px;
+    background: #1d3a1f;
+}
