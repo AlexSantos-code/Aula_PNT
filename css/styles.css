@@ -40,6 +40,7 @@ a {
     text-decoration: underline double #177ddd;
     text-transform: capitalize;
     display: inline;
+    
 }
 
 a:hover {
@@ -81,10 +82,8 @@ td {
     ;
 }
 
-.tabelas-body {
-    margin: 30px 40px 50px 100px;
-    padding: 100px;
-}
+
+
 
 .planoH1 {
     background: orange;
@@ -121,14 +120,15 @@ td {
 
 .float {
     display: flex;
-    float: left; /*Desloca um elemento para a esquerda ou para a direita do seu contêiner, fazendo com que o texto e outros elementos ao redor o contornem. */
+    float: left;
+    /*Desloca um elemento para a esquerda ou para a direita do seu contêiner, fazendo com que o texto e outros elementos ao redor o contornem. */
 }
 
 h1.bDados {
     position: absolute;
-    left: 150px ;
-    right: 200px ;
-    color:rgb(202, 159, 16);
+    left: 150px;
+    right: 200px;
+    color: rgb(202, 159, 16);
 }
 
 .box0 {
@@ -136,32 +136,109 @@ h1.bDados {
     width: 500px;
     height: 500px;
 }
+
 .box1 {
     width: 50px;
     height: 50px;
     background: #17f029;
     position: absolute;
     top: 180px;
-    
+
 }
+
 .box2 {
     width: 75px;
     height: 75px;
     background: #1cb629;
-     position: absolute;
+    position: absolute;
     top: 180px;
     left: 150px;
 }
+
 .box3 {
     width: 100px;
     height: 100px;
     background: #216927;
     position: absolute;
     top: 180px;
-    left:180px;
+    left: 180px;
 }
+
 .box4 {
     width: 125px;
     height: 125px;
     background: #1d3a1f;
 }
+
+.menu-box {
+   
+    flex-direction: column;
+    padding: 15px;
+    gap: 10px;
+
+}
+
+#menu-list {
+    list-style: none;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.menu-item a {
+    padding: 8px 10px;
+    font-size: 14px;
+    
+    
+}
+
+.menu-box img {
+    width: 60px;
+    height: 60px;
+    
+}
+
+
+
+
+
+@media (max-width: 800px) {
+
+.menu-box {
+   
+    flex-direction: column;
+    padding: 15px;
+    gap: 10px;
+
+}
+
+#menu-list {
+    list-style: none;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.menu-item a {
+    padding: 8px 10px;
+    font-size: 14px;
+    
+    
+}
+
+.menu-box img {
+    width: 60px;
+    height: 60px;
+    
+}
+}
+
+

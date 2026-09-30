@@ -1,48 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
+    <div class="menu-box">
+        <a href="index.html">
+            <img src="img/basquetebol.png" alt="" width="100px"> </a>
+
+        <nav class="menu">
+            <span>
+                <ul id="menu-list">
+                    <li><a href="atividade1.html">Jornal</a></li>
+                    <li><a href="controller/bd.html">Controlador</a></li>
+                    <li><a href="controller/cripto/password.html">Senhas</a></li>
+                    <li><a href="tabela.html">Tabela</a></li>
+                    <li><a href="envdados.html">Enviar dados</a></li>
+                    <li><a href="controller/bd.html">BD</a></li>
+                    <li><a href="password.html">Senhas</a></li>
+                    <li><button id="theme-toggle" onclick="toggleTheme()">🌓 Tema</button></li>
+                </ul>
+            </span>
+        </nav>
+    </div>
+
     <h1>Formulário de Envio de Dados</h1>
 
     <div id="arquivo">
         <p>
-            <fieldset>
-                <form action="cripto/password.html" method="post">
+        <fieldset>
+            <form action="cripto/password.html" method="post">
                 <legend>Envio de Arquivo:</legend>
                 <input type="file" name="anexar" id="anexar"> </br>
             </form>
 
-            </fieldset>
+        </fieldset>
         </p>
     </div>
     <div id="pesquisa">
-    <p>
+        <p>
         <fieldset>
             <form action="crioto/password.html" method="post">
-            <legend >Google</legend>
-            <input type="search" name="buscar" id="buscar" >
-            <input type="submit" value="Go"/>
-        </form>
+                <legend>Google</legend>
+                <input type="search" name="buscar" id="buscar">
+                <input type="submit" value="Go" />
+            </form>
         </fieldset>
-    </p>
+        </p>
     </div>
 
     <p>
-<video src="midias/incriveis_720p.mp4" controls loop height="400px"></video>
+        <video src="midias/incriveis_720p.mp4" controls loop height="400px"></video>
     </p>
     <p>
-<audio src="midias/incriveis128k.mp3" controls></audio>
+        <audio src="midias/incriveis128k.mp3" controls></audio>
     </p>
     <div id="mapa">
-    <p>
-        <label for="">Nossa Localização:</label> <br>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.4978518524213!2d-34.8827931249922!3d-8.05160339197577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab187db07a840d%3A0xd02075371cbf769f!2sEscola%20T%C3%A9cnica%20Estadual%20Gin%C3%A1sio%20Pernambucano!5e1!3m2!1spt-BR!2sbr!4v1788389074748!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-    </p>
+        <p>
+            <label for="">Nossa Localização:</label> <br>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.4978518524213!2d-34.8827931249922!3d-8.05160339197577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab187db07a840d%3A0xd02075371cbf769f!2sEscola%20T%C3%A9cnica%20Estadual%20Gin%C3%A1sio%20Pernambucano!5e1!3m2!1spt-BR!2sbr!4v1788389074748!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </p>
     </div>
 </body>
+
 </html>
